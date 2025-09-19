@@ -1,21 +1,21 @@
-About
+About this project
 
-This repository contains a completed 8-bit CPU built in Logisim as a .circ file. The design includes a main bus, ALU, registers, RAM, control logic, and basic I/O — implemented as part of my Study.com CS306 computer architecture project. The design was built following the structure taught in Ross McGowan’s Udemy course Design a CPU and published here so other students can study a finished, working example.
+This repository contains a completed 8-bit CPU built in Logisim as a .circ file. The project was challenging because getting the ALU, registers, RAM, main bus, and control logic to work together required careful debugging and attention to timing.
+
+I’m publishing this design so other students and self-learners have a working example to study. When I built it, I found that many resources explained theory but didn’t show a full, functioning CPU in Logisim. This file is meant to close that gap and make the learning process easier.
 
 Features
 
-- 8-bit data bus and registers
+8-bit data bus and registers
 
-- Arithmetic Logic Unit (ALU) with basic ops
+Arithmetic Logic Unit (ALU) with basic operations
 
-- Main system bus and control signals
+Main system bus and control signals
 
-- On-chip RAM module for instruction/data storage
+On-chip RAM module for instruction/data storage
 
-- Logisim .circ file ready to open and simulate
+Logisim .circ file ready to open and simulate
 
 Credits & context
 
-Built for Study.com CS306 (project grade: 47 / 50).
-
-Inspired by Ross McGowan — Design a CPU (Udemy). Not affiliated with Udemy or Study.com. The course helped fill gaps during development; this repo contains my own .circ implementation.
+Built for Study.com CS306 (graded 47/50). Concepts also informed by Ross McGowan’s Design a CPU Udemy course. Implementation is my own.
